@@ -1,6 +1,9 @@
 body{
 	width: 100%;
-	background-image: url("images/pattern-background-desktop.svg");
+	background-image: url("../images/pattern-background-desktop.svg");
+	background-color: hsl(225, 100%, 94%);
+	background-repeat: no-repeat;
+
 }
 
 .card{
@@ -10,14 +13,21 @@ body{
 	margin: auto;
 	padding-bottom: 15px;
 	top: 10%;
-
+	overflow: hidden;
 }
 
 .card-body{
 	text-align: center;
 }
 
+.card-img{
+object-fit: fill;
+}
 
+.card h4{
+	font-family: RedHatDisplay,'RedHatDisplay',sans-serif;
+	font-weight: 900;
+}
 
 .card p{
 	font-family:  RedHatDisplay,'RedHatDisplay',sans-serif;
@@ -30,24 +40,24 @@ body{
 	background-color: hsl(225, 100%, 98%);
 	border-radius: 20px;
 	border: 1px solid #f5f7ff;
-  padding: 10px 12px;
+    padding: 10px 12px;
 }
 
 .AnnualPlan img{
 	position: relative;
-  margin-left: 15px;
+   margin-left: 15px;
 }
 
 .AnnualPlan h6{
-	font-family:  RedHatDisplay,'RedHatDisplay',sans-serif;
-	font-weight: 600;
+  font-family:  RedHatDisplay,'RedHatDisplay',sans-serif;
+  font-weight: 600;
   word-spacing: 0px;
   letter-spacing: -0.7px;
   line-height: -1.9;
   display: inline-block;
   position: relative;
-   top: 4px;
-   left: 18px;
+  top: 4px;
+  left: 18px;
 }
 
 .AnnualPlan p{
@@ -106,3 +116,14 @@ button:hover{
   src: url('font/RedHatDisplay-Regular.ttf')format('truetype');
 }
 
+
+
+@media screen and (max-width: 375px) {
+	
+body{
+	background-image: url("../images/pattern-background-mobile.svg");
+	background-color: hsl(225, 100%, 94%);
+	background-repeat: no-repeat;
+}
+
+}
