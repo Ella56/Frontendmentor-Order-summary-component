@@ -1,6 +1,6 @@
 body{
 	width: 100%;
-	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='900' preserveAspectRatio='none' viewBox='0 0 1440 900'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1043%26quot%3b)' fill='none'%3e%3crect width='1440' height='900' x='0' y='0' fill='rgba(214%2c 225%2c 255%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c587 C 96%2c531.2 288%2c249.4 480%2c308 C 672%2c366.6 768%2c910.2 960%2c880 C 1152%2c849.8 1344%2c301.6 1440%2c157L1440 900L0 900z' fill='rgba(224%2c 232%2c 255%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1043'%3e%3crect width='1440' height='900' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+	background-image: url("images/pattern-background-desktop.svg");
 }
 
 .card{
@@ -17,17 +17,7 @@ body{
 	text-align: center;
 }
 
-.card-img-top{
-	width: 360px;
-	padding-top: 11px;
-	margin: 1px;
-}
 
-.card h4{
-	font-family:  RedHatDisplay,'RedHatDisplay',sans-serif;
-	font-weight: 900;
-	color: hsl(223, 47%, 23%);
-}
 
 .card p{
 	font-family:  RedHatDisplay,'RedHatDisplay',sans-serif;
